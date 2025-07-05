@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.woff2?6233737379df6ce989d9b299b9eecdb2") format("woff2"),
+url("./fonts/flaticon.woff?6233737379df6ce989d9b299b9eecdb2") format("woff"),
+url("./fonts/flaticon.eot?6233737379df6ce989d9b299b9eecdb2#iefix") format("embedded-opentype"),
+url("./flaticon.ttf?6233737379df6ce989d9b299b9eecdb2") format("truetype"),
+url("./flaticon.svg?6233737379df6ce989d9b299b9eecdb2#flaticon_p") format("svg")
+}
+
+span[class^="flaticon-"]:before, span[class*=" flaticon-"]:before {
+  font-family: flaticon!important;
+  font-style: normal;
+  font-weight: normal!important;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 20px;
+  line-height: 1!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-browser:before {
+    content: "\f101";
+}
+.flaticon-top-border:before {
+    content: "\f102";
+}
+.flaticon-maximize:before {
+    content: "\f103";
+}
+.flaticon-maximize-1:before {
+    content: "\f104";
+}
+.flaticon-creative-process:before {
+    content: "\f105";
+}
+.flaticon-layout:before {
+    content: "\f106";
+}
+.flaticon-grid:before {
+    content: "\f107";
+}
+.flaticon-editorial-design:before {
+    content: "\f108";
+}
+.flaticon-color-palette:before {
+    content: "\f109";
+}
+.flaticon-tools:before {
+    content: "\f10a";
+}
+.flaticon-browser-1:before {
+    content: "\f10b";
+}
+.flaticon-browser-2:before {
+    content: "\f10c";
+}
+.flaticon-web-design:before {
+    content: "\f10d";
+}
+.flaticon-sliders:before {
+    content: "\f10e";
+}
+.flaticon-scale:before {
+    content: "\f10f";
+}
+.flaticon-union:before {
+    content: "\f110";
+}
+.flaticon-layers:before {
+    content: "\f111";
+}
+.flaticon-background:before {
+    content: "\f112";
+}
+.flaticon-expand:before {
+    content: "\f113";
+}
+.flaticon-typography:before {
+    content: "\f114";
+}
+.flaticon-writing:before {
+    content: "\f115";
+}
+.flaticon-table:before {
+    content: "\f116";
+}
+.flaticon-top-border-1:before {
+    content: "\f117";
+}
+.flaticon-timetable:before {
+    content: "\f118";
+}
+

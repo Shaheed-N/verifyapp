@@ -1,0 +1,52 @@
+
+import Link from "next/link"
+
+export default function Section11() {
+	return (
+		<>
+
+
+			<section className="pt-100 ct-05 content-section division">
+				<div className="container">
+					{/* SECTION TITLE */}
+					<div className="row justify-content-center">
+						<div className="col-md-8">
+							<div className="section-title text-center mb-60">
+								{/* Title */}
+								<h2 className="h2-xl">Choose your favorite content in seconds</h2>
+								{/* Text */}
+								<p className="p-lg">Ligula risus auctor tempus magna feugiat lacinia laoreet luctus</p>
+							</div>
+						</div>
+					</div>
+					{/* IMAGE BLOCK */}
+					<div className="row">
+						<div className="col">
+							<div className="img-block wow animate__animated animate__fadeInUp">
+								<img className="img-fluid" src="/images/img-20.png" alt="content-image" />
+							</div>
+						</div>
+					</div>
+					{/* ACTION BUTTON */}
+					<div className="row">
+						<div className="col">
+							<div className="img-block-btn wow animate__animated animate__fadeInUp">
+								{/* Button */}
+								<Link href="#download" className="btn btn-md r-36 btn--tra-black hover--black">Get started - it's free</Link>
+								{/* Advantages List */}
+								<ul className="advantages ico-15 clearfix">
+									<li><p>Free 14 days trial</p></li>
+									<li className="advantages-links-divider"><p><span className="flaticon-minus-1" /></p></li>
+									<li><p>Exclusive Support</p></li>
+									<li className="advantages-links-divider"><p><span className="flaticon-minus-1" /></p></li>
+									<li><p>No Fees</p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>	   {/* End container */}
+			</section>
+
+		</>
+	)
+}
