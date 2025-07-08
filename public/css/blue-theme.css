@@ -39,14 +39,14 @@
   --magnolia: #f9f7fd;
   --metal: #2c3840;
   --noice: #f8f9fa;
-  --orchid: #ce67c9;
-  --pink: #fc5a8d;
-  --purple: #9370db;
+  --orchid: #0C090D;
+  --pink: #0C090D;
+  --purple: #000000;
   --silver: #ccc;
   --sky-blue: #04aaff;
   --smoke: #e7e7e7;
   --snow: #f5f6f6;
-  --violet-red: #c73e9b;
+  --violet-red: #0C090D;
   --white: #fff;
   --white-smoke: #f4f4f9;
   --yellow: #ffbf15; 
@@ -279,7 +279,7 @@ section,
 .bg--magnolia { background-color: var(--magnolia); }
 .bg--noice { background-color: var(--noice); }
 .bg--orchid { background-color: var(--orchid); }
-.bg--pink { background-color: var(--pink); }
+.bg--pink { background-color: var(--black); }
 .bg--purple { background-color: var(--purple); }
 .bg--red { background-color: var(--red); }
 .bg--skyblue { background-color: var(--sky-blue); }
@@ -3864,8 +3864,8 @@ span.sm-info {
 }
 
 .bc-04-wrapper {
-  border: 2.5px solid #d2d2eb;
-  padding-left: 60px;
+  border: 29.5px solid #1111c4;
+  padding-left: 90px;
 }
 
 .bc-01 .section-overlay {
@@ -8571,11 +8571,11 @@ body.theme--dark {
 }
 
 .theme--dark .white-scroll .wsmainfull.scroll .hover--pink:hover {
-  color: var(--white)!important; border-color: var(--pink)!important; background-color: var(--pink)!important;
+  color: var(--white)!important; border-color: var(--black)!important; background-color: var(--black)!important;
 }
 
 .theme--dark .white-scroll .wsmainfull.scroll .hover--purple:hover {
-  color: var(--white)!important; border-color: var(--purple)!important; background-color: var(--purple)!important;
+  color: var(--white)!important; border-color: var(--black)!important; background-color: var(--black)!important;
 }
 
 .theme--dark .white-scroll .wsmainfull.scroll .hover--red:hover {
@@ -8648,7 +8648,7 @@ body.theme--dark {
 }
 
 .theme--dark .bc-04-wrapper {
-  border-color: var(--silver);
+  border-color: var(--theme-color-secondary);
 }
 
 /*------------------------------------------*/

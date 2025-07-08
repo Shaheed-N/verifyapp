@@ -9,7 +9,6 @@ export default function Section4() {
 
 			<section id="how-it-works" className="pt-100 bc-04 ws-wrapper content-section">
 				<div className="container">
-					<div className="bc-04-wrapper r-24">
 						<div className="row d-flex align-items-center">
 							{/* TEXT BLOCK */}
 							<div className="col-md-5 col-lg-6 order-last order-md-2">
@@ -32,17 +31,13 @@ export default function Section4() {
 							<div className="col-md-7 col-lg-6 order-first order-md-2">
 								<div className="bc-4-img video-preview right-column">
 									{/* Play Icon */}
-									<VideoPopup className="video-popup2">
-										<div className="video-btn video-btn-xl bg--theme-2">
-											<div className="video-block-wrapper"><span className="flaticon-play-button" /></div>
-										</div>
-									</VideoPopup>
+								
 									{/* Preview Image */}
 									<img className="img-fluid r-24 block--shadow" src="/images/img-17.jpg" alt="content-image" />
 								</div>
 							</div>
 						</div>   {/* End row */}
-					</div>    {/* End content wrapper */}
+					    {/* End content wrapper */}
 				</div>     {/* End container */}
 			</section>
 

@@ -14,28 +14,26 @@ import Section6 from "@/components/sections/home17/Section6"
 import Section7 from "@/components/sections/home17/Section7"
 import Section8 from "@/components/sections/home17/Section8"
 import Section9 from "@/components/sections/home17/Section9"
-export default function Home17() {
+import VerifAIHero from "@/components/sections/verifai/Hero"
+import VerifAICategories from "@/components/sections/verifai/Categories"
+import VerifAIResultCard from "@/components/sections/verifai/ResultCard"
+import VerifAICoach from "@/components/sections/verifai/Coach"
+import VerifAITrend from "@/components/sections/verifai/Trend"
+import VerifAICompare from "@/components/sections/verifai/Compare"
+import VerifAIGuides from "@/components/sections/verifai/Guides"
+import VerifAIBlog from "@/components/sections/verifai/Blog"
 
+export default function VerifAIHome() {
 	return (
-		<>
-
-			<Layout headerStyle={17} footerStyle={17} breadcrumbTitle="title">
-				<Section1 />
-				<Section2 />
-				<Section3 />
-				<Section4 />
-				<Section5 />
-				<Section6 />
-				<Section7 />
-				<Section8 />
-				<Section9 />
-				<Section10 />
-				<Section11 />
-				<Section12 />
-				<Section13 />
-				<Section14 />
-				<Section15 />
-			</Layout>
-		</>
+		<Layout headerStyle={17} footerStyle={17} breadcrumbTitle="VerifAI">
+			<VerifAIHero />
+			<VerifAICategories />
+			<VerifAIResultCard />
+			<VerifAICoach />
+			<VerifAITrend />
+			<VerifAICompare />
+			<VerifAIGuides />
+			<VerifAIBlog />
+		</Layout>
 	)
 }

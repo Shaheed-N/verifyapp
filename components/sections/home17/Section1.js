@@ -29,9 +29,6 @@ export default function Section1() {
 										<img className="appstore" src="/images/store_badges/appstore.png" alt="appstore-badge" />
 									</Link>
 									{/* Google Play */}
-									<Link href="#" className="store">
-										<img className="googleplay" src="/images/store_badges/googleplay.png" alt="googleplay-badge" />
-									</Link>
 								</div>	{/* END STORE BADGES */}
 							</div>
 						</div>	{/* END HERO TEXT */}

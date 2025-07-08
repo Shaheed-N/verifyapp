@@ -1,5 +1,3 @@
-
-
 /*
   Template Name: Pintex - Mobile App & Software Landing Page Template
   Theme URL: https://themeforest.net/user/jthemes
@@ -11,6 +9,143 @@
   Tags: Responsive, HTML5 template, Jthemes, Mobile, Application, Software, One Page, Landing, Digital Product, Mobile App
 */
 
+/* --- VerifAI Modern Theme Additions --- */
+
+:root {
+  --verifai-sage: #A3B18A;
+  --verifai-hero-blue: #3A506B;
+  --verifai-hero-gray: #5C677D;
+  --verifai-black: #111;
+  --verifai-white: #fff;
+  --verifai-card-bg-light: #f8f9fa;
+  --verifai-card-bg-dark: #181A1B;
+  --verifai-border-radius: 18px;
+  --verifai-shadow: 0 4px 24px rgba(60,60,60,0.07);
+}
+
+body.light-theme {
+  background: var(--verifai-white);
+  color: var(--verifai-black);
+}
+body.dark-theme {
+  background: var(--verifai-black);
+  color: var(--verifai-white);
+}
+
+.card, .verifai-card {
+  background: var(--verifai-card-bg-light);
+  border-radius: var(--verifai-border-radius);
+  box-shadow: var(--verifai-shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-theme .card, body.dark-theme .verifai-card {
+  background: var(--verifai-card-bg-dark);
+  color: var(--verifai-white);
+}
+
+.btn--verifai-primary {
+  background: var(--verifai-hero-blue);
+  color: var(--verifai-white);
+  border-radius: 999px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.08);
+  transition: background 0.2s;
+}
+.btn--verifai-primary:hover {
+  background: var(--verifai-sage);
+  color: var(--verifai-black);
+}
+
+.section-title {
+  color: var(--verifai-hero-blue);
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+body.dark-theme .section-title {
+  color: var(--verifai-sage);
+}
+
+/* Modern glassmorphism for cards */
+.verifai-glass {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  border-radius: var(--verifai-border-radius);
+  box-shadow: var(--verifai-shadow);
+}
+body.dark-theme .verifai-glass {
+  background: rgba(24,26,27,0.7);
+}
+
+/* Minimal input */
+input, select, textarea {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+  background: var(--verifai-card-bg-light);
+  color: var(--verifai-black);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+body.dark-theme input, body.dark-theme select, body.dark-theme textarea {
+  background: var(--verifai-card-bg-dark);
+  color: var(--verifai-white);
+  border: 1px solid #333;
+}
+
+/* Modern nav */
+.verifai-nav {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.verifai-nav a {
+  color: var(--verifai-hero-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+body.dark-theme .verifai-nav a {
+  color: var(--verifai-sage);
+}
+.verifai-nav a.active, .verifai-nav a:hover {
+  color: var(--verifai-sage);
+}
+
+/* Modern footer */
+.verifai-footer {
+  background: var(--verifai-card-bg-light);
+  color: var(--verifai-hero-gray);
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+body.dark-theme .verifai-footer {
+  background: var(--verifai-card-bg-dark);
+  color: var(--verifai-sage);
+  border-top: 1px solid #222;
+}
+
+/* Utility */
+.verifai-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.verifai-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- End VerifAI Modern Theme Additions --- */
 
 html {
   -webkit-font-smoothing: antialiased;
