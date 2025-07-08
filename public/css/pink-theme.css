@@ -22,42 +22,42 @@
 
 :root {
   --alice-blue: #f1f3ff;
-  --black: #353f4f;
+  --black: #0C090D;
   --blue: #0083ff;
-  --coal: #111b21;
+  --coal: #0C090D;
   --disable: #b5b5b5;
-  --form-control: #fafafd;
+  --form-control: #EAE6EB;
   --gray: #545465;
   --green: #0fbc49;
-  --header-color: #120036;
+  --header-color: #0C090D;
   --indigo: #7b5dd6;
-  --ink: #1d222f;
-  --lavender: #f8f5fd;
+  --ink: #0C090D;
+  --lavender: #EAE6EB;
   --light-blue: #edf8fd;
   --light-gray: #90a0b2;
   --lilac: #beaedb;
-  --magnolia: #f9f7fd;
-  --metal: #2c3840;
-  --noice: #f8f9fa;
+  --magnolia: #EAE6EB;
+  --metal: #0C090D;
+  --noice: #EAE6EB;
   --orchid: #ce67c9;
   --pink: #fc5a8d;
   --purple: #9370db;
   --silver: #ccc;
   --sky-blue: #04aaff;
   --smoke: #e7e7e7;
-  --snow: #f5f6f6;
+  --snow: #EAE6EB;
   --violet-red: #c73e9b;
   --white: #fff;
-  --white-smoke: #f4f4f9;
+  --white-smoke: #EAE6EB;
   --yellow: #ffbf15; 
-  --tra-black: rgba(5, 5, 5, .05);
+  --tra-black: rgba(12, 9, 13, .05);
   --tra-gray: rgba(96, 96, 96, .13);
   --tra-indigo: rgba(128, 96, 225, .13);
-  --tra-ink: rgba(1, 1, 1, .1); 
+  --tra-ink: rgba(12, 9, 13, .1); 
   --tra-purple: rgba(102, 51, 255, .13);
   --tra-white: rgba(255, 255, 255, .2); 
   --tra-violet-red: rgba(237, 230, 244, .84);
-  --tra-white-smoke: rgba(244, 244, 249, .13);
+  --tra-white-smoke: rgba(234, 230, 235, .13);
 }
 
 html {
