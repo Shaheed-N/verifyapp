@@ -17,7 +17,7 @@ export default function Section1() {
 									<img className="img-fluid" src="/images/app-logo-1.png" alt="hero-app-logo" />
 								</div>
 								{/* Title */}
-								<h2>Private chat with anyone</h2>
+								<h2>Next-Gen AI Assistant</h2>
 								{/* Text */}
 								<p className="p-md">Feugiat primis ligula and sapien mauris auctor ipsum laoreet and pretium augue
 									egestas
