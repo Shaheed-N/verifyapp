@@ -13,6 +13,7 @@ import "/public/css/menu.css"
 // import "/public/css/owl.carousel.min.css"
 // import "/public/css/owl.theme.default.min.css"
 import "/public/css/pink-theme.css"
+import "/public/css/ai-theme.css"
 import "/public/css/responsive.css"
 // import LoadScripts from "@/components/elements/Scripts"
 
