@@ -1,5 +1,5 @@
 import Script from "next/script"
-import { Nunito } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
