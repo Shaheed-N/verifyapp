@@ -2196,7 +2196,7 @@ span.sm-info {
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a {
   background-color: var(--tra-white-smoke);
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: var(--inter-font-family), 'Inter', sans-serif;
   color: var(--black);
   font-size: 1rem;
   font-weight: 600;
