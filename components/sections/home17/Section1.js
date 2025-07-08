@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 import Link from "next/link"
 
@@ -46,7 +45,6 @@ export default function Section1() {
 		</>
 	)
 }
-=======
 
 import Link from "next/link"
 
@@ -97,4 +95,3 @@ export default function Section1() {
 		</>
 	)
 }
->>>>>>> 1ee2c81977a51d9b67cf0918c05159463ef8de61
