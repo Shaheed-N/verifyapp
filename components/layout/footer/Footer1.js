@@ -12,7 +12,7 @@ export default function Footer1() {
 						<div className="col-lg-3">
 							<div className="footer-info">
 								{/* LOGO */}
-								<img className="footer-logo" src="/images/logo.png" alt="footer-logo" />
+								<img className="" src="/images/logo.png" alt="" />
 								{/* QR CODE */}
 								<div className="footer-qr-code r-16">
 									<img className="img-fluid" src="/images/qr-code.png" alt="qr-code-image" />

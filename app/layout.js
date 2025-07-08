@@ -24,8 +24,11 @@ const inter = Inter({
         display: 'swap',
 })
 export const metadata = {
-        title: 'AI Assistant - Next Generation AI Application',
+        title: 'VeifAI - Find authentic items',
         description: 'Experience the future of AI with our cutting-edge intelligent assistant application',
+        icons: {
+            icon: '/favicon-verifai.ico',
+        },
 }
 
 export default function RootLayout({ children }) {

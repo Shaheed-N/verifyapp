@@ -12,11 +12,9 @@ export default function Footer2() {
 						<div className="col-lg-3">
 							<div className="footer-info">
 								{/* LOGO */}
-								<img className="footer-logo" src="/images/logo.png" alt="footer-logo" />
+								<img className="footer-logo" src="/images/Group 9278.png" alt="footer-logo" />
 								{/* QR CODE */}
-								<div className="footer-qr-code r-16">
-									<img className="img-fluid" src="/images/qr-code.png" alt="qr-code-image" />
-								</div>
+								
 							</div>
 						</div>
 						{/* FOOTER LINKS */}
@@ -90,7 +88,7 @@ export default function Footer2() {
 						<div className="row row-cols-1 row-cols-md-2 d-flex align-items-center">
 							{/* FOOTER COPYRIGHT */}
 							<div className="col">
-								<div className="footer-copyright"><p className="p-sm">© 2024 Pintex. <span>All Rights Reserved</span></p></div>
+								<div className="footer-copyright"><p className="p-sm">© 2025 VerifAI <span>All Rights Reserved</span></p></div>
 							</div>
 							{/* FOOTER LINKS */}
 							<div className="col">

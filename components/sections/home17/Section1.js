@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 
 export default function Section1() {
@@ -6,7 +5,7 @@ export default function Section1() {
 		<>
 
 
-			<section id="hero-17" className="bg--fixed hero-section division">
+			<section id="hero-17" className="bg--fixed hero-section division" style={{ fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" }}>
 				<div className="container">
 					<div className="row d-flex align-items-center">
 						{/* HERO TEXT */}
@@ -17,10 +16,10 @@ export default function Section1() {
 									<img className="img-fluid" src="/images/app-logo-1.png" alt="hero-app-logo" />
 								</div>
 								{/* Title */}
-								<h2>Private chat with anyone</h2>
+								<h2>Verify any item instantly with AI</h2>
 								{/* Text */}
-								<p className="p-md">Feugiat primis ligula and sapien mauris auctor ipsum laoreet and pretium augue
-									egestas
+								<p className="p-md">
+									Check if items are authentic or fake in seconds. Get detailed AI reports, quality scores, price estimates, and expert shopping insights — all in one app.
 								</p>
 								{/* STORE BADGES */}
 								<div className="stores-badge badge-img-md">
@@ -45,4 +44,3 @@ export default function Section1() {
 		</>
 	)
 }
-

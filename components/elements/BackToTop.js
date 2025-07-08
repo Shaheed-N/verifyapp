@@ -23,8 +23,8 @@ export default function BackToTop({ target }) {
     return (
         <>
             {hasScrolled && (
-                <div  onClick={handleClick}>
-                    Click
+                <div  onClick={handleClick} style={{cursor: 'pointer'}} aria-label="Back to top">
+                    {/* Removed 'Click' text. Add icon or leave empty for now. */}
                 </div>
 
             )}
