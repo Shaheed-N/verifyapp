@@ -27,7 +27,7 @@ export const metadata = {
         title: 'VeifAI - Find authentic items',
         description: 'Experience the future of AI with our cutting-edge intelligent assistant application',
         icons: {
-            icon: '/telmanfavicon.ico',
+            icon: '/favicon.ico',
         },
 }
 
