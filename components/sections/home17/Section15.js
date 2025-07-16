@@ -32,7 +32,7 @@ export default function Section15() {
 										</div>	{/* END STORE BADGES */}
 										{/* OS Prerequisite */}
 										<div className="os-version-ext">
-										
+										st
 										</div>
 									</div>
 								</div>	{/* END BANNER TEXT */}
