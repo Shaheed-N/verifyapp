@@ -181,3 +181,21 @@
     color: white;
   }
 }
+
+/* Add or override spinner styles for black circular spinner */
+.cssload-spinner, .cssload-spinner:after, .cssload-spinner:before {
+  border-radius: 50% !important;
+}
+.cssload-spinner:after, .cssload-spinner:before {
+  background: black !important;
+  box-shadow: none !important;
+}
+/* Optionally, adjust size for a more circular look */
+.cssload-spinner {
+  width: 50px !important;
+  height: 50px !important;
+}
+.cssload-spinner:after, .cssload-spinner:before {
+  width: 46px !important;
+  height: 46px !important;
+}

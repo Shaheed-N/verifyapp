@@ -6,7 +6,7 @@ export default function Privacy() {
 	return (
 		<>
 
-			<Layout>
+			<Layout headerStyle={17} footerStyle={17}>
 				<div>
 					<section id="privacy-page" className="pb-100 inner-page-hero division">
 						<div className="container">
@@ -302,7 +302,7 @@ export default function Privacy() {
 										<h5 className="h5-md"><span>10.</span> How to Contact Us</h5>
 										{/* Text */}
 										<p className="mb-0">If you have any questions or suggestions about this Terms of Service, do not
-											hesitate to contact us at <Link href="/mailto:yourdomain@mail.com" className="color--theme">hello@yourdomain.com</Link>
+											hesitate to contact us at <Link href="/mailto:yourdomain@mail.com" style={{color: 'black'}}>hello@yourdomain.com</Link>
 										</p>
 									</div>	{/* END TEXT BLOCK */}
 								</div>

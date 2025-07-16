@@ -199,7 +199,7 @@ export default function Cookies() {
 										</p>
 										{/* Text */}
 										<p className="mb-0">If you have any questions or suggestions about this Terms of Service, do not
-											hesitate to contact us at <Link href="/mailto:yourdomain@mail.com" className="color--theme">hello@yourdomain.com</Link>
+											hesitate to contact us at <Link href="/mailto:yourdomain@mail.com" style={{color: 'black'}}>hello@yourdomain.com</Link>
 										</p>
 									</div>	{/* END TEXT BLOCK */}
 								</div>
