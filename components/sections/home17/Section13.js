@@ -3,8 +3,6 @@
 export default function Section13() {
 	return (
 		<>
-
-
 			<section className="pt-100 ct-01 content-section division">
 				<div className="container">
 					<div className="row d-flex align-items-center">
@@ -17,38 +15,32 @@ export default function Section13() {
 						{/* TEXT BLOCK */}
 						<div className="col-md-6">
 							<div className="txt-block right-column wow animate__animated animate__fadeInLeft">
-								{/* Section ID */}
-								<span className="section-id">Share and Connect</span>
 								{/* Title */}
-								<h2 className="h2-md">Capture and share joyful moments</h2>
+								<h2 className="h2-md">Compare with Confidence,<br/>Share with Ease</h2>
 								{/* Text */}
-								<p>Sapien tempor sodales quaerat ipsum congue undo laoreet turpis neque auctor turpis vitae dolor
-									luctus placerat magna and ligula cursus purus vitae purus an ipsum auris suscipit
-								</p>
+								<p>VerifAI enables users to go beyond single-item authentication by offering a powerful side-by-side comparison feature. Whether you're choosing between similar styles or evaluating authenticity signals across multiple products, our intelligent comparison tool helps you make smarter, faster decisions.</p>
 								{/* TEXT BOX */}
 								<div className="txt-box">
-									{/* Title */}
-									<h5 className="h5-lg">Share your emotions</h5>
-									{/* Text */}
 									<ul className="simple-list">
 										<li className="list-item">
-											<p>Tempor sapien quaerat ipsum laoreet purus and sapien dolor diam ultrice ipsum aliquam
-												congue and dolor cursus
-											</p>
+											<p>Easily compare multiple items across key criteria like authenticity score, brand, era, material, and design highlights.</p>
 										</li>
 										<li className="list-item">
-											<p className="mb-0">Tempor sapien quaerat ipsum laoreet purus dolor a sapien turpis ultrice
-												pulvinar congue aliquam an ispum congue
-											</p>
+											<p>View side-by-side insights in a clean, mobile-optimized layout tailored for collectors, shoppers, and resellers.</p>
+										</li>
+										<li className="list-item">
+											<p>Highlight “Best Item” recommendations based on AI analysis, style relevance, and trend positioning.</p>
+										</li>
+										<li className="list-item">
+											<p>Share comparison results with friends or communities directly from the app for collaborative decision-making.</p>
 										</li>
 									</ul>
-								</div>	{/* END TEXT BOX */}
+								</div>
 							</div>
 						</div>	{/* END TEXT BLOCK */}
 					</div>    {/* End row */}
 				</div>	   {/* End container */}
 			</section>
-
 		</>
 	)
 }

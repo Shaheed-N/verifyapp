@@ -26,14 +26,36 @@ export default function Section3() {
 								<h2 className="h2-md">Get Detailed AI Results Instantly</h2>
 								{/* Paragraph */}
 								<p>
-									After scanning an item with VerifAI, you get a complete breakdown — see the brand, product type, price range, period style, and a quality score, all powered by advanced AI.
+									After scanning an item with
+VerifAI, you receive a complete,
+AI-generated breakdown —
+including the brand, product type,
+price range, style period, and
+authenticity confidence score, all
+powered by cutting-edge artificial
+intelligence
 								</p>
 								<ul className="simple-list">
 									<li className="list-item">
-										<p>Instantly know which brand and product type you’re looking at.</p>
+										<p>Instantly identify the brand
+and product category of
+any scanned item.</p>
 									</li>
 									<li className="list-item">
-										<p className="mb-0">Check price estimate, period (modern, classic, etc.), and an AI-based quality score from 0 to 10.</p>
+										<p className="mb-0">View a price estimate and
+period classification (e.g.,
+modern, vintage, classic).</p>
+									</li>
+									<li className="list-item">
+										<p className="mb-0">Receive an AI-driven
+authenticity score from 0 to
+100% with visual and databased support.</p>
+									</li>
+									<li className="list-item">
+										<p className="mb-0">Understand the reasoning
+behind each decision with
+transparent AI
+explanations.</p>
 									</li>
 								</ul>
 							</div>

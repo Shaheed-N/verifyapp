@@ -3,8 +3,6 @@
 export default function Section12() {
 	return (
 		<>
-
-
 			<section className="pt-100 ct-02 content-section division">
 				<div className="container">
 					<div className="row d-flex align-items-center">
@@ -14,30 +12,24 @@ export default function Section12() {
 								{/* TEXT BOX */}
 								<div className="txt-box">
 									{/* Title */}
-									<h5 className="h5-lg">No Ads. No Trackers</h5>
+									<h5 className="h5-lg">Premium Certificates for<br/>Trusted Authentication</h5>
 									{/* Text */}
-									<p>Sodales sapien tempor quaerat ipsum congue and laoreet turpis undo neque auctor sagittis a
-										quisque justo luctus placerat magna sodales egestas ligula
-									</p>
-								</div>	{/* END TEXT BOX */}
-								{/* TEXT BOX */}
-								<div className="txt-box">
-									{/* Title */}
-									<h5 className="h5-lg">Strong Encryption</h5>
-									{/* Text */}
+									<p>VerifAI provides official, high-confidence authentication certificates for luxury items—helping users verify, showcase, and preserve the value of their premium possessions. Each certificate includes detailed product information, brand validation, and AI-backed scoring to ensure trust and transparency.</p>
 									<ul className="simple-list">
 										<li className="list-item">
-											<p>Tempor sapien quaerat undo ipsum laoreet purus and sapien dolor ociis ultrice quisque
-												and magna aliquam dolor cursus a congue varius
-											</p>
+											<p>Instantly generate a digital certificate of authenticity after item verification, backed by AI and visual analysis.</p>
 										</li>
 										<li className="list-item">
-											<p className="mb-0">Quaerat sapien tempor undo ipsum laoreet purus and sapien dolor ociis
-												ultrice quisque magna
-											</p>
+											<p>View essential product details such as brand, product type, market value, and quality score in one sleek summary.</p>
+										</li>
+										<li className="list-item">
+											<p>Receive a confidence score based on AI assessment, image matching, and attribute checks.</p>
+										</li>
+										<li className="list-item">
+											<p>Get certificate ID tracking and timestamps for future proof and resale documentation.</p>
 										</li>
 									</ul>
-								</div>	{/* END TEXT BOX */}
+								</div>
 							</div>
 						</div>	{/* END TEXT BLOCK */}
 						{/* IMAGE BLOCK */}
@@ -49,7 +41,6 @@ export default function Section12() {
 					</div>    {/* End row */}
 				</div>	   {/* End container */}
 			</section>
-
 		</>
 	)
 }

@@ -18,23 +18,51 @@ export default function Section11() {
 						<div className="col-md-6">
 							<div className="txt-block right-column wow animate__animated animate__fadeInLeft">
 								{/* Section ID */}
-								<span className="section-id">Easy to Connect</span>
+								
 								{/* Title */}
-								<h2 className="h2-md">Stay connected to friends worldwide</h2>
+								<h2 className="h2-md">Discover What's Trending
+								Before Everyone Else</h2>
 								{/* Text */}
-								<p>Sapien tempor sodales quaerat ipsum congue undo laoreet turpis neque auctor turpis vitae dolor
-									luctus placerat magna and ligula cursus purus vitae purus an ipsum auris suscipit
+								<p>VerifAI not only authenticates
+products but also helps users stay
+ahead of fashion and style trends.
+Our AI-powered trend detection
+engine analyzes visual patterns,
+brand signals, and cultural context
+to determine which items are
+gaining momentum in the
+mainstream.
 								</p>
 								{/* Text */}
 								<ul className="simple-list">
 									<li className="list-item">
-										<p>Tempor sapien quaerat ipsum laoreet purus dolor a sapien turpis ultrice pulvinar congue
-											aliquam an ispum congue
+										<p>Instantly view the trend
+status of fashion pieces—
+categorized as “Hot” or
+“Not Trending.”
 										</p>
 									</li>
 									<li className="list-item">
-										<p className="mb-0">Tempor sapien quaerat ipsum laoreet purus and sapien dolor diam ultrice
-											ipsum aliquam congue and dolor cursus
+										<p className="mb-0">Identify key fashion
+elements like color
+patterns, materials, and
+standout accessories using
+smart visual parsing.
+										</p>
+									</li>
+									<li className="list-item">
+										<p className="mb-0">Access real-time style
+insights that highlight
+current aesthetics such as
+streetwear, vintage, or
+luxury.
+										</p>
+									</li>
+									<li className="list-item">
+										<p className="mb-0">Explore curated trend cards
+and swipeable style stories
+based on emerging
+consumer preferences.
 										</p>
 									</li>
 								</ul>

@@ -18,8 +18,12 @@ export default function Section15() {
 										{/* Title */}
 										<h2 className="h2-md" style={{color: 'black'}}>Download the VerifAI app!</h2>
 										{/* Text */}
-										<p className="p-md" style={{color: 'black'}}>Sapien tempor sodales a quaerat ipsum congue luctus laoreet turpis neque
-											and turpis ultrice.
+										<p className="p-md" style={{color: 'black'}}>Unlock the power of AI-driven
+authentication at your fingertips.
+With VerifAI, you can scan or upload
+product images, follow step-by-step
+guides, and receive instant
+authenticity results.
 										</p>
 										{/* STORE BADGES */}
 										<div className="stores-badge badge-img-lg">
